@@ -1,7 +1,10 @@
+//--------------------------------------------------------------------
+/*
+
 // 1) -----------------------
 
-/*
-var diaSemana = prompt("Qual é o dia da semana?");
+
+let diaSemana = prompt("Qual é o dia da semana?");
 
 if (diaSemana == "sabado" || diaSemana == "domingo")
 {
@@ -10,11 +13,12 @@ if (diaSemana == "sabado" || diaSemana == "domingo")
 {
     alert('Boa semana!');
 }
-*/
+
 
 // 2) -----------------------
 
-/*var numero = prompt("Informe um número");
+
+let numero = prompt("Informe um número");
 
 if (numero>=0)
 {
@@ -24,12 +28,12 @@ else
 {
     alert('NEGATIVO');
 }
-*/
+
 
 // 3) -----------------------
-/*
+
 let pontuacao=100;
-var jogo = prompt("Informe a pontuacao obtida");
+let jogo = prompt("Informe a pontuacao obtida");
 
 if (jogo>=100)
 {
@@ -39,7 +43,30 @@ else
 {
     alert('Tente novamente para ganhar');
 }
-*/
+
 
 // 4) -----------------------
+
+let saldoConta;
+let mensagem = prompt("Informe seu salario:");
+
+if(saldoConta=mensagem)
+{
+    alert(`Seu salario e: ${saldoConta}`);
+}
+
+
+// 5)-----------------------
+
+let nome;
+let mensagem = prompt("Informe seu nome:");
+
+if(nome=mensagem)
+{
+    alert(`Boas vindas ${nome}`);
+}
+
+*/
+//--------------------------------------------------------------------
+
 
