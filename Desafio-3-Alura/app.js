@@ -1,3 +1,4 @@
+/*
 // 1) -----------------------
 
 let numero =1;
@@ -36,3 +37,5 @@ while (contagem<=numero)
     console.log(contagem);
     contagem++;
 }
+
+*/
