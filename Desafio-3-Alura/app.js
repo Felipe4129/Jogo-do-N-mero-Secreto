@@ -16,6 +16,7 @@ while(numero>=0);
     numero--;
 }
 
+
 // 3) -----------------------
 
 let numero prompt ('Escolha um numero para comecar a contagem regressiva:');
