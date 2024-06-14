@@ -33,6 +33,6 @@ let numero prompt ('Escolha um numero para contagem progressiva:');
 contagem = 0
 while (contagem<=numero)
 {
-    console.log(contador);
-    contador++;
+    console.log(contagem);
+    contagem++;
 }
