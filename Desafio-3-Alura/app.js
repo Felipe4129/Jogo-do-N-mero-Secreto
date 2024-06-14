@@ -1,29 +1,37 @@
-alert('Bem Vindos ao jogo do Número Secreto');
-let numeroSecreto=5;
-console.log (numeroSecreto);
-let chute;
-let tentativas = 1;
+// 1) -----------------------
 
-//enquanto chute não for igual ao numero secreto
-while (chute!=numeroSecreto)
+let numero =1;
+while(numero<=10);
 {
-    chute = prompt('Escolha um número entre 1 e 10');
-    //Se chute for igual numero secreto
-    if (chute == numeroSecreto) 
-    {
-        alert(`Voce descobriu o numero secreto ${numeroSecreto} com ${tentativas} tentativas`);
-    } 
-    else 
-    {
-        if (chute > numeroSecreto) 
-        {
-            alert(`O número secreto é menor que ${chute}`);
-        } 
-        else 
-        {
-            alert(`O número secreto é maior que ${chute}`);
-        }
-        // tentativas = tentativas + 1;
-        tentativas++;
-    }
+    console.log(numero);
+    numero++;
+}
+
+// 2) -----------------------
+
+let numero =10;
+while(numero>=0);
+{
+    console.log(numero);
+    numero--;
+}
+
+// 3) -----------------------
+
+let numero prompt ('Escolha um numero para comecar a contagem regressiva:');
+
+while (numero>=0)
+{
+    console.log(numero);
+    numero--;
+}
+
+// 4) -----------------------
+
+let numero prompt ('Escolha um numero para contagem progressiva:');
+contagem = 0
+while (contagem<=numero)
+{
+    console.log(contador);
+    contador++;
 }
