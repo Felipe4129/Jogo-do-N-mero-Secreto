@@ -2,7 +2,7 @@
 // 1) -----------------------
 
 let numero =1;
-while(numero<=10);
+while(numero<=10)
 {
     console.log(numero);
     numero++;
@@ -11,7 +11,7 @@ while(numero<=10);
 // 2) -----------------------
 
 let numero =10;
-while(numero>=0);
+while(numero>=0)
 {
     console.log(numero);
     numero--;
@@ -20,7 +20,7 @@ while(numero>=0);
 
 // 3) -----------------------
 
-let numero prompt ('Escolha um numero para comecar a contagem regressiva:');
+let numero = parseInt(prompt('Escolha um número para começar a contagem regressiva:'));
 
 while (numero>=0)
 {
@@ -30,7 +30,7 @@ while (numero>=0)
 
 // 4) -----------------------
 
-let numero prompt ('Escolha um numero para contagem progressiva:');
+let numero = parseInt(prompt('Escolha um número para contagem progressiva:'));
 contagem = 0
 while (contagem<=numero)
 {
