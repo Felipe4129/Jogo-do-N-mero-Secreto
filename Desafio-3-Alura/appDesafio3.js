@@ -9,7 +9,7 @@ while(numero<=10)
 }
 
 // 2) -----------------------
-
+ 
 let numero =10;
 while(numero>=0)
 {
