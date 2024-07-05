@@ -1,4 +1,4 @@
-
+/*
 // 1) -----------------------
 
 console.log ('Boas-Vindas');
@@ -107,3 +107,4 @@ console.log(`${numeroAleatorio}`);
 
 let numeroAleatorio= parseInt(Math.random () *1000);
 console.log(`${numeroAleatorio}`);
+*/
