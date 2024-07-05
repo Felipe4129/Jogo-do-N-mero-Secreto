@@ -1,47 +1,45 @@
 
 // 1) -----------------------
 
-/*console.log ('Boas-Vindas');*/
+console.log ('Boas-Vindas');
 
 // 2) -----------------------
 
-/*
+
 let nome = 'Felipe';
-console.log (`Ola, ${nome}`);*/
+console.log (`Ola, ${nome}`);
 
 // 3) -----------------------
 
-/*
 let nome = 'Felipe';
-alert (`Ola ${nome}`);*/
+alert (`Ola ${nome}`);
 
 // 4) -----------------------
-/*
+
 let qualLinguagem;
 qualLinguagem = prompt('Qual linguagem voce mais gosta?');
-alert(`A linguagem e ${qualLinguagem}`);*/
+alert(`A linguagem e ${qualLinguagem}`);
 
 // 5) -----------------------
 
-/*
+
 let valor1 = 20;
 let valor2 = 40;
 
 let resultado = valor1+valor2;
-alert (`O resultado de ${valor1} + ${valor2} e: ${resultado}`);*/
+alert (`O resultado de ${valor1} + ${valor2} e: ${resultado}`);
 
 // 6) -----------------------
 
-/*
 let valor1 = 10;
 let valor2 = 30;
 
 let resultado = valor1-valor2;
 alert (`O resultado de ${valor1} - ${valor2} e: ${resultado}`);
-*/
+
 
 // 7) -----------------------
-/*
+
 let idade;
 
 idade = prompt ('Insira sua idade');
@@ -54,10 +52,9 @@ else
 {
     alert('Nao e maior de idade');
 }
-*/
+
 // 8) -----------------------
 
-/*
 let numero;
 numero = prompt('Insira um numero positivo, negativo ou zero');
 if(numero>=1)
@@ -73,19 +70,19 @@ else if(numero<0)
 {
     alert('o numero e negativo');
 }
-*/
+
 
 // 9) -----------------------
-/*
+
 let contador = 1;
 while (contador<=10)
 {
     console.log(`${contador}`);
     contador++;
-}*/
+}
 
 // 10) -----------------------
-/*
+
 let nota = prompt ('Informe sua nota');
 if(nota>=7)
 {
@@ -95,11 +92,18 @@ else
 {
     alert('reprovado');
 }
-*/
-// 11) -----------------------
- 
 
+// 11) -----------------------
+
+let numeroAleatorio = Math.random();
+console.log(`${numeroAleatorio}`);
 
 // 12) -----------------------
 
+let numeroAleatorio= parseInt(Math.random () *10);
+console.log(`${numeroAleatorio}`);
+
 // 13 -----------------------
+
+let numeroAleatorio= parseInt(Math.random () *1000);
+console.log(`${numeroAleatorio}`);
